@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+E:\SringBootPractice\Spring Boot MVC\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1923773339.index

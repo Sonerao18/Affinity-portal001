@@ -1,0 +1,4 @@
+server.port=2030
+spring.application.name=EMPLOYEE-SERVEICE
+eureka.client.service-url.default-zone=http://localhost:8761/eureka
+spring.config.import=

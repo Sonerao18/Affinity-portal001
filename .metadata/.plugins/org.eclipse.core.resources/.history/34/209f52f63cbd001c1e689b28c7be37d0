@@ -1,0 +1,19 @@
+package com.nt;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.jms.annotation.EnableJms;
+
+import com.nt.runner.MessageSender;
+
+@SpringBootApplication
+
+public class SpringCloudJmsProducerApplication {
+
+	public static void main(String[] args) {
+		ConfigurableApplicationContext ctx = SpringApplication.run(SpringCloudJmsProducerApplication.class, args);
+		ctx.getBean("ms",MessageSender.class);
+	}
+
+}
